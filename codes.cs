@@ -42,6 +42,7 @@ class Program
 
         else
         {
+            Console.Clear();
             Console.WriteLine("Lisans Kodunuz Hatalıdır. Eğer Bir Lisansınız Yoksa t.me/lostminerbtc Üzerinden Satın Alabilirsiniz.");
             Console.Read();
             return;
@@ -84,6 +85,7 @@ class Program
                 }
                 else
                 {
+                    Console.Clear();
                     Console.Write("ETH veya BTC Yazmanız Gerekmektedir. Programı Yeniden Başlatın.");
                     Console.Read();
                     return;
@@ -97,6 +99,7 @@ class Program
 
                 if (string.IsNullOrEmpty(bitcoinAdresi) && string.IsNullOrEmpty(ethereumAdresi))
                 {
+                    Console.Clear();
                     Console.WriteLine("Eksik veya Hatalı Giriş Yapıldı. Programı Yeniden Başlatın.");
                     Console.Read();
                     return;
